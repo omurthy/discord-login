@@ -1,0 +1,1 @@
+{"version":"1.0.0","name":"yes","dependencies":{"express-session":{"version":"1.17.2"},"express":{"version":"4.17.2"},"nodemon":{"version":"2.0.15"},"passport-discord":{"version":"0.1.4"},"passport":{"version":"0.5.2"}}}

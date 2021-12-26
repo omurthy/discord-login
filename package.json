@@ -1,0 +1,21 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "Simple login with DiscordJS",
+  "main": "index.html",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "keywords": [
+    "discordjs"
+  ],
+  "author": "omuralcin@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "passport-discord": "^0.1.4"
+  }
+}
