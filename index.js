@@ -19,8 +19,8 @@ passport.deserializeUser((obj,done)=>{
 });
 
 let strategy = new Strategy({
-    clientID : "555667632582295553",
-    clientSecret : "SwDOosdPSZyJmk_VDOgbR2Z4Q6HkCmBv",
+    clientID : "",
+    clientSecret : "",
     callbackURL : "http://localhost:3000/callback",
     scope : ["guilds","identify"], 
 },(accessToken,refreshToken,profile,done)=>{
